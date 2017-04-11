@@ -1,0 +1,242 @@
+body{
+  font-family: 'Catamaran', sans-serif;
+}
+header{
+  background-image: url(photo/title_image.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+}
+header img{
+  max-width: 10%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+header h1{
+  font-family: 'Bodoni Std', 'Cantata One', serif;
+  font-size: 1em;
+  color: white;
+  margin: 0 auto;
+  padding-top: 0.5em;
+}
+header p{
+  color: white;
+  font-size: 0.6em;
+  margin:0;
+}
+quote{
+  margin:0 auto;
+  text-align: center;
+  display: block;
+  border: 5px solid #D1B79B;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+quote p{
+  font-size: 2em;
+  font-weight: bold;
+  color: #D1B79B;
+}
+quote cite{
+  display: block;
+  font-size: 0.8em;
+  padding-bottom: 1em;
+}
+text{
+  display: block;
+  margin:2em;
+}
+content h2{
+  font-family: 'Bodoni Std', 'Cantata One', serif;
+  font-size: 1.5em;
+}
+content p{
+  font-size: 0.9em;
+  margin-top: -1em;
+  display: block;
+  max-width: 90%;
+  margin-bottom: 3em;
+}
+content a{
+  text-decoration: none;
+  color: #D1B79B;
+  border: 2px solid #D1B79B;
+  padding: 4px;
+  font-size: 0.9em;
+}
+content a:hover{
+  text-decoration: none;
+  color: white;
+  border: 2px solid #D1B79B;
+  padding: 4px;
+  font-size: 0.9em;
+  background-color: #D1B79B;
+}
+content img{
+  max-width: 100%;
+  margin:0;
+  display: block;
+
+}
+color li{
+  list-style-type: none;
+  margin-left: -2.5em;
+  padding: 1em;
+}
+.primary{
+  background-color: #D1B79B;
+  display: block;
+  margin-bottom: 1em;
+}
+.secondary{
+  background-color: #6D5E48;
+  margin-bottom: 1em;
+}
+.third{
+  background-color: black;
+  margin-bottom: 1em;
+}
+.fourth{
+  background-color: lightgray;
+  margin-bottom: 1em;
+}
+@media screen and (min-width:600px){
+  header{
+    padding-top: 15em;
+    padding-bottom: 16em;
+    margin-bottom: 2em;
+  }
+  header img{
+    max-width: 10%;
+  }
+  header h1{
+    font-size: 2.4em;
+  }
+  header p{
+    font-size: 1.5em;
+  }
+  quote p{
+    font-size: 3em;
+  }
+  quote cite{
+    font-size: 1em;
+  }
+  content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+  text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 0;
+    padding-left: 1.2em;
+  }
+  content h2{
+    font-size: 3em;
+  }
+  content p{
+    font-size: 1.2em;
+  }
+  .button{
+    font-size: 1.2em;
+  }
+  .button:hover{
+    font-size: 1.2em;
+  }
+  content img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 38%;
+  }
+
+}
+@media screen and (min-width:1000px){
+  header{
+    padding-top: 15em;
+    padding-bottom: 16em;
+    margin-bottom: 2em;
+  }
+  header img{
+    max-width: 10%;
+  }
+  header h1{
+    font-size: 2.4em;
+  }
+  header p{
+    font-size: 1.5em;
+  }
+  quote p{
+    font-size: 4em;
+    padding: 1em;
+  }
+  quote cite{
+    font-size: 1.6em;
+  }
+  content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+  text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 0;
+    padding-left: 1.2em;
+  }
+  content h2{
+    font-size: 3em;
+  }
+  content p{
+    font-size: 1.2em;
+  }
+  .button{
+    font-size: 1.2em;
+  }
+  .button:hover{
+    font-size: 1.2em;
+  }
+  content img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 38%;
+  }
+  color ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .primary{
+    display: flex;
+    flex-wrap: wrap;
+    width:20%;
+    padding-bottom: 4em;
+  }
+  .secondary{
+    display: flex;
+    flex-wrap: wrap;
+    width:20%;
+  }
+  .third{
+    display: flex;
+    flex-wrap: wrap;
+    width:20%;
+  }
+  .fourth{
+    display: flex;
+    flex-wrap: wrap;
+    width:20%;
+  }
+
+}

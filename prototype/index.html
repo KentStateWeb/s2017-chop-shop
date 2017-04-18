@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Chop Shop Hair Salon</title>
     <meta name="description" content="Page Description Goes Here">
   </head>
   <body>
-    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
     <body>
       <header>
@@ -18,16 +17,14 @@
       <h1>Chop Shop</h1>
       <p>the ohio hair salon</p>
     </div>
-    <button>
-      <a href="contact.html">Make Appoinment</a>
-    </button>
+      <a href="contact.html" class="appoinment">Make Appoinment</a>
     </header>
     <nav>
       <ul>
         <li><a href="#index">Home</a></li>
         <li><a href="#our team">Our Team</a></li>
         <li><a href="#services">Service</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="contact">Contact</a></li>
       </ul>
     </nav>
     <blockquote>
@@ -44,7 +41,7 @@
       <p>Founded in 2008, the Ohio Chop Shop was born from owner Ana’s passion for the fashion and beauty industry. The vision was simple, offer world class salon and spa services in an upbeat modern atmosphere, while respecting our environment. The concept was a hit, and Ohio Chop Shop was fast on it’s way to making waves in the Lancaster beauty industry.</p>
       <a class="button"href="#">Meet Our Team</a>
     </div>
-    <div id="our team">
+    <team>
       <h2>Meet Our Team</h2>
       <img src="photo/ana.jpg" alt="ana's photo">
       <h3>Ana</h3>
@@ -91,7 +88,7 @@
         </div>judy@etchsalon.com</li>
       </ul>
     </div>
-  </div>
+  </team>
     <div id="services">
      <h1> Our Menu  </h1>
  <h2> Hair </h2>
@@ -165,29 +162,31 @@
 </div>
   </div>
     <footer>
-      <img src="icon/logo.svg" alt="this is a logo">
+      <!--img src="icon/logo.svg" alt="this is a logo" class="footer_logo"-->
       <div class="hour">
-        <table>
-          <th>Hour</th>
-          <td>Sunday: 12pm – 6pm</td>
-          <td>Monday – Saturday: 8am – 6pm</td>
-        </table>
+        <ul>
+          <li class="contact_title">Hour</li>
+          <li>Sunday: 12pm – 6pm</li>
+          <li>Monday – Saturday: 8am – 6pm</li>
+        </ul>
       </div>
-      <div id="contact">
-        <table>
-          <th>Contact Us</th>
-          <td>15205 N. Kierland Blvd Scottsdale, AZ 85254</td>
-          <td>info@etchsalon.com</td>
-          <td>480.483.7777</td>
-        </table>
+      <div class="contact">
+        <ul>
+          <li class="contact_title">Contact Us</li>
+          <li>15205 N. Kierland Blvd Scottsdale, AZ 85254</li>
+          <li>info@etchsalon.com</li>
+          <li>480.483.7777</li>
+        </ul>
       </div>
       <div class="media">
-        <table>
-          <th>Follow Us</th>
-          <td><a href="#"><img src="icon/facebook.svg" alt="facebook icon"></a></td>
-          <td><a href="#"><img src="icon/twitter.svg" alt="twitter icon"></a></td>
-          <td><a href="#"><img src="icon/insgram.svg" alt="insgram icon"></a></td>
-        </table>
+        <ul>
+          <li class="contact_title">Follow Us</li>
+          </ul>
+          <media>
+          <a href="#"><img src="icon/facebook.svg" alt="facebook icon" class="social"></a>
+          <a href="#"><img src="icon/twitter.svg" alt="twitter icon" class="social"></a>
+          <a href="#"><img src="icon/insgram.svg" alt="insgram icon" class="social"></a>
+        </media>
       </div>
       </footer>
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" />

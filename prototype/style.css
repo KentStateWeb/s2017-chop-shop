@@ -1,11 +1,199 @@
-body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+body{
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+}
+header{
+  background-image: url(photo/title_image.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+}
+header img{
+  max-width: 10%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+header h1{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+  color: white;
+  margin: 0 auto;
+  padding-top: 0.5em;
+}
+header p{
+  color: white;
+  font-size: 0.6em;
+  margin:0;
+  font-weight: 200;
+  margin-bottom: 3em;
+}
+.appoinment{
+  padding: 0.4em;
+  border: 1px solid white;
+  font-size: 0.4em;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.appoinment:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+nav ul{
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+  padding-top: -0.2em;
+  padding-bottom: -0.2em;
+}
+nav li{
+  list-style: none;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  border-right: 2px solid black;
+  padding-right: 1.5em;
+}
+.contact{
+  border: none;
+
+}
+nav a:hover{
+  color: #BD9F76
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
+body img{
+  width: 100%;
 }
+
+footer{
+  background-color: #756244;
+  color: white;
+  padding-top: 1em;
+}
+.footer_logo{
+  width: 20%;
+  align-items: center;
+}
+footer ul{
+  list-style: none;
+  display: block;
+  margin-left: 3em;
+  margin-right: 5em;
+}
+.contact_title{
+  font-weight: 600;
+  font-size: 1.3em;
+}
+footer li{
+  font-weight: 200;
+}
+.social{
+  width: 15%;
+}
+footer media{
+  display: block;
+  margin-left: 5em;
+  margin-top: -1em;
+}
+@media screen and (min-width:600px){
+    header{
+      padding-top: 15em;
+      padding-bottom: 16em;
+      margin-bottom: 2em;
+    }
+    header img{
+      max-width: 10%;
+    }
+    header h1{
+      font-size: 2.4em;
+    }
+    header p{
+      font-size: 1.5em;
+      margin-bottom: 6em;
+    }
+    .appoinment{
+      padding: 0.7em;
+      font-size: 1em;
+      border: 2px solid white;
+    }
+    nav ul{
+      margin-left: 3em;
+    }
+    nav a{
+      font-size: 1.7em;
+      padding-right: 3em;
+      border-right: 3px solid black;
+    }
+
+    .footer_logo{
+      width: 20%;
+    }
+    footer{
+      display: flex;
+      padding-top: 1em;
+      justify-content: space-between;
+    }
+    footer ul{
+      margin-left: 0em;
+      margin-right: 2em;
+    }
+    footer li{
+      font-size: 1em;
+    }
+    .contact_title{
+      font-size: 1.5em;
+    }
+    .social{
+      width: 20%;
+    }
+    footer media{
+      margin-left: 2.5em;
+    }
+}
+@media screen and (min-width:1000px){
+      header{
+        padding-top: 10em;
+        padding-bottom: 16em;
+        margin-bottom: 2em;
+      }
+      header img{
+        max-width: 10%;
+      }
+      header h1{
+        font-size: 2.4em;
+      }
+      header p{
+        font-size: 1.5em;
+      }
+      .appoinment{
+        padding: 0.7em;
+        font-size: 1.2em;
+        border: 3px solid white;
+      }
+      nav ul{
+        margin-left: 5em;
+        margin-right: 1em;
+      }
+      nav a{
+        font-size: 2em;
+        padding-right: 5.5em;
+        border-right: 3px solid black;
+      }
+      footer li{
+        font-size: 1.2em;
+      }
+      .contact_title{
+        font-size: 1.6em;
+      }
+    }

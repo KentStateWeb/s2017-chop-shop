@@ -1,6 +1,7 @@
 body{
   font-family: 'Catamaran', sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 header{
   background-image: url(photo/title_image.jpg);
@@ -20,14 +21,14 @@ header img{
 }
 header h1{
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.6em;
   color: white;
   margin: 0 auto;
   padding-top: 0.5em;
 }
 header p{
   color: white;
-  font-size: 0.6em;
+  font-size: 1em;
   margin:0;
   font-weight: 200;
   margin-bottom: 3em;
@@ -35,7 +36,7 @@ header p{
 .appoinment{
   padding: 0.4em;
   border: 1px solid white;
-  font-size: 0.4em;
+  font-size: 0.8em;
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -69,11 +70,126 @@ nav a{
 
 }
 nav a:hover{
-  color: #BD9F76
+  color: #BD9F76;
+}
+blockquote{
+  margin:0 auto;
+  text-align: center;
+  display: block;
+  border: 5px solid #D1B79B;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+blockquote p{
+  font-size: 2em;
+  font-weight: bold;
+  color: #D1B79B;
+}
+blockquote cite{
+  display: block;
+  font-size: 0.8em;
+  padding-bottom: 1em;
+}
+.text{
+  margin-left: 1em;
+}
+h2{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  width: 80%;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  border-bottom: 3px solid #D1B79B;
+  color: #D1B79B;
+  padding-bottom: 0.5em;
+}
+.content p{
+  font-size: 1.2em;
+  margin-top: -1em;
+  display: block;
+  max-width: 90%;
+  width: 80%;
+  margin-bottom: 3em;
+  margin-left: 1.8em;
+}
+.subtitle p{
+  font-size: 1.2em;
+  color: #BD9F76;
+  margin-top:-2em;
+  margin-bottom: 1.5em;
+  margin-left: 1.8em;
+  font-weight: bold;
+}
+.content a{
+  text-decoration: none;
+  color: #D1B79B;
+  border: 2px solid #D1B79B;
+  padding: 4px;
+  font-size: 1.2em;
+  margin-left: 1.8em;
+}
+.content a:hover{
+  text-decoration: none;
+  color: white;
+  border: 2.5px solid #D1B79B;
+  padding: 4px;
+  font-size: 1.2em;
+  background-color: #D1B79B;
+}
+.content img{
+  width: 100%;
+  margin:0;
+  display: block;
+}
+form{
+  max-width: 100%;
+  display: block;
+  background-image: url(photo/form_img.jpg);
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
+.form_title h2{
+background-color: #D1B79B;
+color: white;
+padding:0.2em;
 }
 
-body img{
-  width: 100%;
+form label {
+padding: 0;
+font-weight: bold;
+text-align: left;
+display: block;
+background-color: #D1B79B;
+padding-left: 2.2em;
+color: white;
+}
+form input,
+form select,
+form textarea {
+width: 80%;
+border: 1px solid #D1B79B;
+font-size: 1em;
+padding: 0.3em;
+}
+form textarea {
+height: 100px;
+}
+form button {
+padding: 0.5em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-left: 3.2em;
+font-size: 0.7em;
+}
+
+form button:hover {
+background: #D1B79B;
+cursor: pointer;
 }
 
 footer{
@@ -135,6 +251,63 @@ footer media{
       padding-right: 3em;
       border-right: 3px solid black;
     }
+    blockquote p{
+      font-size: 3em;
+    }
+    blockquote cite{
+      font-size: 1em;
+
+    }
+    .index{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .first_text{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 40%;
+      margin: 0;
+      padding-left: 1.2em;
+    }
+    .second_text{
+      width: 80%;
+      margin-top: -5.5em;
+    }
+    .about h2{
+      color: white;
+    }
+    .subtitle p{
+      font-size: 1.2em;
+    }
+    .content h2{
+      font-size: 2.5em;
+      flex-wrap: wrap;
+      display: flex;
+    }
+    .content p{
+      font-size: 1.2em;
+      flex-wrap: wrap;
+      margin-left: 2.4em;
+      display: flex;
+    }
+    .content a{
+      font-size: 1.4em;
+      margin-bottom: 4em;
+      border: 3px solid #D1B79B;
+
+    }
+    .content a:hover{
+      font-size: 1.4em;
+      border: 3px solid #D1B79B;
+    }
+    .home_img img{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 38%;
+    }
+    form{
+      padding-left: 8em;
+    }
 
     .footer_logo{
       width: 20%;
@@ -190,6 +363,51 @@ footer media{
         padding-right: 5.5em;
         border-right: 3px solid black;
       }
+      blockquote{
+        border: 10px solid #D1B79B;
+      }
+      blockquote p{
+        font-size: 4em;
+        padding: 1em;
+      }
+      blockquote cite{
+        font-size: 1.6em;
+      }
+      .content h2{
+        font-size: 3em;
+      }
+      .content p{
+        font-size: 1.6em;
+      }
+      .subtitle p{
+        font-size: 1.6em;
+      }
+      .second_text{
+        margin-top: -7em;
+        margin-left: 8em;
+      }
+      .content a{
+        font-size: 1.6em;
+        border: 4px solid #D1B79B;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        margin-left: 7.5em;
+      }
+      .content a:hover{
+        font-size: 1.6em;
+        color: white;
+        border: 4px solid #D1B79B;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+      }
+      form{
+        padding-left: 30em;
+      }
+      button{
+        font-size: 0.8em;
+      }
+
+
       footer li{
         font-size: 1.2em;
       }

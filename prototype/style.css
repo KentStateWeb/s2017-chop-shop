@@ -102,6 +102,7 @@ h2{
   width: 80%;
   margin-left: 1em;
   margin-bottom: 1.5em;
+  margin-top: 2em;
   font-weight: 600;
   border-bottom: 3px solid #D1B79B;
   color: #D1B79B;
@@ -144,6 +145,22 @@ h2{
 
   margin:0;
   display: block;
+}
+.menu{
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+.menu h3{
+  font-size: 1.5em;
+  background-color: #D1B79B;
+  color: white;
+}
+.serviceName{
+  font-size: 1.2em;
+}
+.servicePrice{
+  padding-left: 0.6em;
+  color: #D1B79B;
 }
 form{
   max-width: 100%;

@@ -222,6 +222,9 @@ footer media{
   margin-left: 5em;
   margin-top: -1em;
 }
+
+
+
 @media screen and (min-width:600px){
     header{
       padding-top: 15em;
@@ -334,6 +337,9 @@ footer media{
     footer media{
       margin-left: 2.5em;
     }
+
+
+
 }
 @media screen and (min-width:1000px){
       header{
@@ -415,4 +421,27 @@ footer media{
       .contact_title{
         font-size: 1.6em;
       }
+
+
+
     }
+
+
+
+
+    /* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}

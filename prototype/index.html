@@ -59,7 +59,32 @@
     </div>
     <team id="team">
       <h2>Meet Our Team</h2>
-      <img src="photo/ana.jpg" alt="ana's photo">
+
+
+
+      <!-- Add the code for your slider -->
+      <!-- Create a DIV with the class "carousel-cell" for each item you'd like in your slider.  Note, for images, it's best to resize them all to the same height and width -->
+      <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'
+               >
+        <div class="carousel-cell">
+                  <img src="photo/betsy.jpg">
+          </div>
+        <div class="carousel-cell">
+                  <img src="photo/ana.jpg">
+          </div>
+          <div class="carousel-cell">
+                  <img src="photo/judy.jpg">
+          </div>
+      </div>
+
+      <!-- Flickity hosts the appropriate CSS and JavaScript for you, so you don't need to download them if you don't want to.  Add the Flickity JavaScript and CSS File to the end of your HTML (before the closing body tag) -->
+
+      <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+      <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+
+
+
+
       <h3>Ana</h3>
       <h5>Management, Owner</h5>
       <p>Ohio Chop Shop was born from Ana’s experience in the beauty and Fashion industry to accommodate a need in Lancaster that hadn’t been fulfilled up to that point. Her passion for exceptional service is the driving inspiration for the ultimate salon and spa experience!</p>

@@ -90,6 +90,9 @@ blockquote cite{
   font-size: 0.8em;
   padding-bottom: 1em;
 }
+.content img{
+  max-width: 100%;
+}
 .text{
   margin-left: 1em;
 }
@@ -259,7 +262,6 @@ footer media{
     }
     blockquote cite{
       font-size: 1em;
-
     }
     .index{
       display: flex;
@@ -270,7 +272,7 @@ footer media{
       margin-bottom: 1em;
     }
     .first_text{
-      max-width: 100%;
+      max-width: 50%;
       margin: 0;
       padding-left: -3em;
       display: block;
@@ -306,8 +308,8 @@ footer media{
       font-size: 1.4em;
       border: 3px solid #D1B79B;
     }
-    .home_img img{
-
+    .home_img {
+      width: 50%;
     }
     form{
       padding-left: 8em;

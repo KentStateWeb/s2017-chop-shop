@@ -141,6 +141,10 @@ h2{
   font-size: 1.2em;
   background-color: #D1B79B;
 }
+.team{
+  display: block;
+  margin-top: 2em;
+}
 .content img{
 
   margin:0;
@@ -328,6 +332,22 @@ footer media{
     .home_img {
       width: 50%;
     }
+    .menu_title h2{
+      margin-left: 1.5em;
+    }
+    .menu{
+      margin-left: 4em;
+    }
+    .menu h3{
+      font-size: 2em;
+    }
+    .serviceName{
+      font-size: 1.6em;
+    }
+    .servicePrice{
+      font-size: 1.3em;
+      padding-left: 0.8em;
+    }
     form{
       padding-left: 8em;
     }
@@ -425,6 +445,22 @@ footer media{
         border: 4px solid #D1B79B;
         padding-left: 0.7em;
         padding-right: 0.7em;
+      }
+      .menu_title h2{
+        margin-left: 3.5em;
+      }
+      .menu{
+        margin-left: 10em;
+      }
+      .menu h3{
+        font-size: 2.4em;
+      }
+      .serviceName{
+        font-size: 1.9em;
+      }
+      .servicePrice{
+        font-size: 1.6em;
+        padding-left: 1em;
       }
       form{
         padding-left: 30em;

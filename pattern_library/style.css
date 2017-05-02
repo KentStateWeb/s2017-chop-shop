@@ -1,0 +1,257 @@
+body{
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-image: url(photo/title_image.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+}
+header img{
+  max-width: 10%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+header h1{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.6em;
+  color: white;
+  margin: 0 auto;
+  padding-top: 0.5em;
+}
+header p{
+  color: white;
+  font-size: 1em;
+  margin:0;
+  font-weight: 200;
+  margin-bottom: 3em;
+}
+.appoinment{
+  padding: 0.4em;
+  border: 1px solid white;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.appoinment:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+h2{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  width: 80%;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+  font-weight: 600;
+  border-bottom: 3px solid #D1B79B;
+  color: #D1B79B;
+  padding-bottom: 0.5em;
+}
+.typeface{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.type_head{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.type{
+  width: 40%;
+}
+form{
+  max-width: 100%;
+  display: block;
+  background-image: url(photo/form_img.jpg);
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.form_title h2{
+background-color: #D1B79B;
+color: white;
+padding:0.2em;
+}
+
+form label {
+padding: 0;
+font-weight: bold;
+text-align: left;
+display: block;
+background-color: #D1B79B;
+padding-left: 2.2em;
+color: white;
+}
+form input,
+form select,
+form textarea {
+width: 80%;
+border: 1px solid #D1B79B;
+font-size: 1em;
+padding: 0.3em;
+}
+form textarea {
+height: 100px;
+}
+form button {
+padding: 0.5em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-left: 3.2em;
+font-size: 0.7em;
+}
+
+form button:hover {
+background: #D1B79B;
+cursor: pointer;
+}
+.color li{
+  list-style-type: none;
+  margin-left: -2.5em;
+  padding: 1em;
+}
+.primary{
+  background-color: #D1B79B;
+  display: block;
+  margin-bottom: 1em;
+}
+.secondary{
+  background-color: #6D5E48;
+  margin-bottom: 1em;
+}
+.third{
+  background-color: black;
+  margin-bottom: 1em;
+}
+.fourth{
+  background-color: lightgray;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width:600px){
+    header{
+      padding-top: 15em;
+      padding-bottom: 16em;
+      margin-bottom: 2em;
+    }
+    header img{
+      max-width: 10%;
+    }
+    header h1{
+      font-size: 2.4em;
+    }
+    header p{
+      font-size: 1.5em;
+      margin-bottom: 6em;
+    }
+    .appoinment{
+      padding: 0.7em;
+      font-size: 1em;
+      border: 2px solid white;
+    }
+    h2{
+      font-size: 3em;
+    }
+    .typeface{
+      padding-left: 7em;
+    li{
+      font-size: 1.5em;
+    }
+    .type_head{
+      font-size: 2em;
+  }
+  form{
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+
+}
+
+  @media screen and (min-width:1000px){
+        header{
+          padding-top: 10em;
+          padding-bottom: 16em;
+          margin-bottom: 2em;
+        }
+        header img{
+          max-width: 10%;
+        }
+        header h1{
+          font-size: 2.4em;
+        }
+        header p{
+          font-size: 1.5em;
+        }
+        .appoinment{
+          padding: 0.7em;
+          font-size: 1.2em;
+          border: 3px solid white;
+        }
+        h2{
+          font-size: 3.5em;
+        }
+        .typeface{
+          padding-left: 15em;
+        }
+        li{
+          font-size: 2em;
+        }
+        .type_head{
+          font-size: 2.5em;
+      }
+      .type{
+        margin-left: 1.8em;
+      }
+      form{
+        padding-left: 25em;
+        padding-right: 25em;
+      }
+      button{
+        font-size: 0.8em;
+      }
+      .color ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .primary{
+        display: flex;
+        flex-wrap: wrap;
+        width:20%;
+        padding-bottom: 4em;
+      }
+      .secondary{
+        display: flex;
+        flex-wrap: wrap;
+        width:20%;
+      }
+      .third{
+        display: flex;
+        flex-wrap: wrap;
+        width:20%;
+      }
+      .fourth{
+        display: flex;
+        flex-wrap: wrap;
+        width:20%;
+      }
+
+    }

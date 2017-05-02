@@ -145,6 +145,8 @@ h2{
   display: block;
   margin-top: 2em;
 }
+
+
 .content img{
 
   margin:0;
@@ -478,7 +480,6 @@ footer media{
       }
 
 
-
     }
 
 
@@ -503,26 +504,25 @@ footer media{
 
 
 
-
-
-
-
 h4{
-    margin-top: 50px;
+    margin-top: 1px;
     font-size: 2em
 
 }
 
 figcaption{
-  margin-top: .5px;
-  font-size: 1.5em;
+  font-size: 1em;
+  width: 30%;
+  margin-top: -3em;
 }
 
 div.stylist-info.wrap{
+
   position: absolute;
   top:0;
-  margin-top: 50px;
-  font-size:.8em;
+  margin-top: 0px;
+  font-size: 1em;
   padding:70px;
+
 
 }

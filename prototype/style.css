@@ -500,3 +500,25 @@ footer media{
   content: 'flickity';
   display: none; /* hide :after */
 }
+
+
+
+
+
+
+
+h4{
+    margin-top: 50px;
+    font-size: 2em
+
+}
+
+
+div.stylist-info.wrap{
+  position: absolute;
+  top:0;
+  margin-top: 50px;
+  font-size:.8em;
+  padding:70px;
+
+}

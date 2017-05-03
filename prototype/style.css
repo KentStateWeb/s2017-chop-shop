@@ -252,6 +252,33 @@ footer media{
   margin-left: 5em;
   margin-top: -1em;
 }
+h4{
+    margin-top: 2em;
+    font-size: 1.3em;
+    margin-left: 1em;
+
+}
+
+figcaption{
+  font-size: 0.7em;
+  width: 35%;
+  margin-top: -2em;
+  padding-left: 2em;
+}
+
+.stylist-info.wrap{
+
+  position: absolute;
+  top:0;
+  margin-top: -2em;
+  font-size: 1em;
+  margin-left: 2em;
+}
+.stylist-position p{
+  font-size: 0.8em;
+  margin-top: 0em;
+  font-weight: 600;
+}
 
 
 
@@ -387,6 +414,36 @@ footer media{
       margin-left: 2.5em;
     }
 
+    h4{
+      margin-top: 1.5em;
+      font-size: 1.8em;
+      margin-left: 1.3em;
+
+
+    }
+
+    figcaption{
+      font-size: 1em;
+      width: 40%;
+      margin-top: -2em;
+      padding-left: 2em;
+    }
+
+    .stylist-info.wrap{
+
+      position: absolute;
+      top:0;
+      margin-top: 0em;
+      font-size: 1em;
+      margin-left: 2em;
+    }
+    .stylist-position p{
+      font-size: 1em;
+      margin-top: 1em;
+      font-weight: 600;
+      margin-left: 2em;
+    }
+
 
 
 }
@@ -487,6 +544,35 @@ footer media{
       .contact_title{
         font-size: 1.6em;
       }
+      h4{
+        margin-top: 2em;
+        font-size: 2em;
+        margin-left: 1.2em;
+
+
+      }
+
+      figcaption{
+        font-size: 1.2em;
+        width: 40%;
+        margin-top: -2em;
+        padding-left: 2em;
+      }
+
+      .stylist-info.wrap{
+
+        position: absolute;
+        top:0;
+        margin-top: 3em;
+        font-size: 1.2em;
+        margin-left: 2em;
+      }
+      .stylist-position p{
+        font-size: 1.2em;
+        margin-top: 1em;
+        font-weight: 600;
+        margin-left: 2em;
+      }
 
 
     }
@@ -509,29 +595,4 @@ footer media{
 .carousel:after {
   content: 'flickity';
   display: none; /* hide :after */
-}
-
-
-
-h4{
-    margin-top: 1px;
-    font-size: 2em
-
-}
-
-figcaption{
-  font-size: 1em;
-  width: 30%;
-  margin-top: -3em;
-}
-
-div.stylist-info.wrap{
-
-  position: absolute;
-  top:0;
-  margin-top: 0px;
-  font-size: 1em;
-  padding:70px;
-
-
 }

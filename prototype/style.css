@@ -91,7 +91,7 @@ blockquote cite{
   padding-bottom: 1em;
 }
 .content img{
-  max-width: 100%;
+  width: 100%;
 }
 .text{
   margin-left: 1em;
